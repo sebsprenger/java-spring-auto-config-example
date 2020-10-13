@@ -1,4 +1,4 @@
-package com.example.autoconfigure.springwrapper;
+package com.example.autoconfigure.library.springwrapper;
 
 import com.example.events.Event;
 import org.springframework.context.ApplicationEvent;

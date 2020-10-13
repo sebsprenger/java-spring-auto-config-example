@@ -1,4 +1,4 @@
-package com.example.autoconfigure.springwrapper;
+package com.example.autoconfigure.library.springwrapper;
 
 import com.example.handlers.MailHandler;
 import org.springframework.context.ApplicationListener;
@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class SpringEventListenerMail implements ApplicationListener<SpringEvent> {
 
-    private MailHandler mailHandler;
+    private final MailHandler mailHandler;
 
     public SpringEventListenerMail(MailHandler mailHandler) {
         this.mailHandler = mailHandler;

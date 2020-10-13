@@ -1,4 +1,4 @@
-package com.example.autoconfigure;
+package com.example.autoconfigure.library;
 
 import com.example.handlers.MailHandler;
 import org.springframework.beans.factory.annotation.Value;

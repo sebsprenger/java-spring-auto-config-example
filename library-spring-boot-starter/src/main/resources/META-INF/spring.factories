@@ -1,2 +1,4 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.example.autoconfigure.LibraryConfig
+com.example.autoconfigure.library.LibraryConfig,\
+com.example.autoconfigure.libraryext.LibraryExtConfig,\
+com.example.autoconfigure.runner.RunnerConfig

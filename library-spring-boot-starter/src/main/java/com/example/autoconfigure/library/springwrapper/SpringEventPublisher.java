@@ -1,4 +1,4 @@
-package com.example.autoconfigure.springwrapper;
+package com.example.autoconfigure.library.springwrapper;
 
 import com.example.events.Event;
 import com.example.events.EventPublisher;
@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class SpringEventPublisher implements EventPublisher {
 
-    private ApplicationEventPublisher applicationEventPublisher;
+    private final ApplicationEventPublisher applicationEventPublisher;
 
     public SpringEventPublisher(ApplicationEventPublisher applicationEventPublisher) {
         this.applicationEventPublisher = applicationEventPublisher;
