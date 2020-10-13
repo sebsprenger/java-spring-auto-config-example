@@ -1,1 +1,1 @@
-# java-spring-auto-config-example
+# spring-auto-config-example
